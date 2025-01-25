@@ -1,0 +1,150 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    background-color: black;
+    color: #33FF33; /* Retro green text */
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+/* Container that holds all content */
+.container {
+    background-color: black;
+    border: 2px solid #33FF33; /* Green border */
+    padding: 2rem;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.5);
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* Header styles */
+header {
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #33FF33;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* AI container (for Hruboš and Joshua) */
+.ai-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.ai-box {
+    background-color: #111111;
+    padding: 10px;
+    width: 48%;
+    border: 1px solid #33FF33;
+    color: #33FF33;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0px 0px 5px rgba(0, 255, 0, 0.3);
+}
+
+.ai-box h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.thinking-box {
+    text-align: center;
+    font-style: italic;
+}
+
+.choice-box {
+    text-align: center;
+}
+
+/* Result and score boxes */
+.result-box, .score-box {
+    background-color: #111111;
+    padding: 10px;
+    margin-top: 1rem;
+    border: 1px solid #33FF33;
+    color: #33FF33;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0px 0px 5px rgba(0, 255, 0, 0.3);
+}
+
+footer {
+    font-size: 0.8rem;
+    color: #33FF33;
+    text-align: center;
+}
+
+/* Social Media Buttons Styling */
+.social-media-buttons {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.social-media-buttons h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.social-button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #33FF33;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; /* Make the text bold */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-button:hover {
+    background-color: #33FF33;
+    color: black;
+}
+
+/* Specific button colors */
+.youtube {
+    background-color: #FF0000;
+}
+
+.tiktok {
+    background-color: #010101;
+}
+
+.instagram {
+    background-color: #E1306C;
+}
+
+.pinterest {
+    background-color: #262834;
+}
+
+.telegram {
+    background-color: #0088cc;
+}
